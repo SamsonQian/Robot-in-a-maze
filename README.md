@@ -1,4 +1,4 @@
-# Robot-in-a-maze
+# Simple Robot
 1st project of object-orientated programming with Python. I wanted to experiment with Python and object-orientation. 
 This program defines 2 classes, a robot and an underwater robot.
 Robot is defined and can move through the maze or go deeper underwater.
@@ -13,7 +13,6 @@ robot_name.left(steps)
 robot.battery   to show the remaining battery for the robot
 robot.recharge()  to recharge the robot battery
 
-Underwater class (inherits Robot class):
+Underwater Robot (inherits Robot class):
 robot.depth to show depth of robot
 robot.dive(steps)
-
